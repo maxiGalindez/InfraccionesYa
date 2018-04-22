@@ -5,8 +5,8 @@ div.container {
 
 header, footer {
     padding: 1em;
-    color: white;
-    background-color: greenyellow;
+    color: rgba(255, 255, 255, 0.178);
+    background-color: rgb(76, 78, 180);
     clear: left;
     text-align: center;
 }
@@ -32,4 +32,13 @@ article {
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
+}
+
+h1{
+    text-align: center;
+}
+li{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(29, 29, 214, 0.37);
+
 }
