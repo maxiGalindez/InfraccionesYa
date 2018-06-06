@@ -13,7 +13,7 @@ header, footer {
 
 nav {
     float: left;
-    max-width: 160px;
+    max-width: 800px;
     margin: 0;
     padding: 1em;
 }
@@ -32,6 +32,8 @@ article {
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
+    height:500px;
+    width:500px;
 }
 
 h1{
@@ -41,4 +43,10 @@ li{
     font-family: 'Times New Roman', Times, serif;
     color: rgba(29, 29, 214, 0.37);
 
+}
+
+iframe.IFRAME{
+    
+    height: 500px;
+    width: 1000px;
 }
