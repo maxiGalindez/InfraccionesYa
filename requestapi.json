@@ -1,0 +1,48 @@
+{
+    "welcome": "Bienvenidos a Infracciones Ya!",
+    "urls": {
+        "GET": {
+            "/api/:patente/infracciones/": {
+                "descripción": "Lista las infracciones pertenecientes a la patente :patente",
+                "ejemplo": "/api/ABC123/infracciones/",
+                "ejemplos disponibles": "[ABC123, AAA000, BBB111]"
+            },
+            "/api/:patente/infracciones/:infraccion_id": {
+                "descripción": "Obtiene la infracción con id :infraccion_id",
+                "ejemplo": "/api/ABC123/infraciones/42"
+            },
+            "/api/tiposInfraccion/": {
+                "descripción": "Lista los tipos de infracciones.",
+                "ejemplo": "/api/tiposInfraccion/"
+            },
+            "/api/tiposInfraccion/:type_id": {
+                "descripción": "Obtiene el tipo de infracción con id :type_id",
+                "ejemplo": "/api/tiposInfraccion/1"
+            },
+            "/api/depositos/": {
+                "descripción": "Lista los depósitos.",
+                "ejemplo": "/api/depositos/"
+            },
+            "/api/:patente/acarreos/:infraccion_id": {
+                "descripción": "Obtiene la información de acarreo para la infracción con id :infraccion_id",
+                "ejemplo": "/api/ABC123/acarreos/42"
+            },
+            "/api/gruas/": {
+                "descripción": "Lista las grúas.",
+                "ejemplo": "/api/gruas/"
+            },
+            "/api/gruas/:grua_id": {
+                "descripción": "Obtiene la grúa con id :grua_id",
+                "ejemplo": "/api/gruas/1"
+            },
+            "/api/gruas/:grua_id/posiciones": {
+                "descripción": "Obtiene las posiciones de la grúa con id :grua_id",
+                "ejemplo": "/api/gruas/1/posiciones"
+            },
+            "/api/gruas/estados": {
+                "descripción": "Lista los tipos de estados de las grúas.",
+                "ejemplo": "/api/gruas/estados"
+            }
+        }
+    }
+}
