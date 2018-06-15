@@ -1,5 +1,7 @@
 body {
     font-family: Arial;
+    /* background-image: url('images/fondo.jpg'); */
+    background-color: seagreen;
   }
   
   #mapid {
@@ -10,7 +12,7 @@ body {
     bottom: 0px;
     left: 0;
   
-    width: 75%;
+    width: 70%;
   }
   
   #right {
@@ -21,12 +23,21 @@ body {
     bottom: 0px;
   
     width: 25%;
+    
   }
   
   #incidents {
-    margin: 7px 15px;
+    margin: 7px, 15px;
   }
   
   ul {
     color: red;
+  }
+  h2{
+    background-color: indigo;
+    color: steelblue;
+    width: 95%;
+    text-align: center;
+    border-color: black;
+    border-top: 3px;
   }
