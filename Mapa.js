@@ -39,7 +39,8 @@ var syncQuery = function(url, callback) {
 /******************************************************************************
  * Inicio.
  */
-var bootstrap = function() {
+var bootstrap;
+bootstrap = function() {
     var url = Config.url;
 	var urlGruas = '/gruas/';
 	var urlEstados = '/estadosGruas/';
